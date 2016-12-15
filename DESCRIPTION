@@ -1,0 +1,1 @@
+DirectoryHash is a library for Python. It gives an opportunity to get a hash of the destination folder. You can choose file types, which will participate in the calculations.
