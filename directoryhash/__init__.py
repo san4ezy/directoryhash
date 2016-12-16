@@ -1,4 +1,4 @@
-from directoryhash import directoryhash
+from directoryhash import *
 
 
 __version__ = '0.1'

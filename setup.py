@@ -16,7 +16,7 @@ setup(
     maintainer="Alexander Yudkin",
     maintainer_email="alexander@yudkin.com.ua",
 
-    url="yudkin.com.ua",
+    url="http://yudkin.com.ua",
     packages=find_packages(exclude=["tests.*", "tests"]),
     classifiers=[
         'Intended Audience :: Developers',

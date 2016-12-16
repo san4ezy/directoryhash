@@ -37,3 +37,13 @@ Getting hash for directory including html and css only::
 
     md5_hash = md5("path_to_directory", filetypes)
     sha1_hash = sha1("path_to_directory", filetypes)
+
+Catching exceptions::
+
+    from directoryhash import md5, HashedDirectoryDoesNotExist
+
+    directory_path = "path_to_destination_folder"
+    try:
+        md5(directory_path)
+    except HashedDirectoryDoesNotExist as e:
+        print(e)
