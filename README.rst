@@ -21,19 +21,19 @@ Install using pip::
 How to use?
 ===========
 
-Get hash for whole directory::
+Getting hash for whole directory::
 
     from directoryhash import md5, sha1
 
-    md5("path_to_directory")
-    sha1("path_to_directory")
+    md5_hash = md5("path_to_directory")
+    sha1_hash = sha1("path_to_directory")
 
 
-Get hash for directory including html and css only::
+Getting hash for directory including html and css only::
 
     from directoryhash import md5, sha1
 
     filetypes = ('.html', '.css',)
 
-    md5("path_to_directory", filetypes)
-    sha1("path_to_directory", filetypes)
+    md5_hash = md5("path_to_directory", filetypes)
+    sha1_hash = sha1("path_to_directory", filetypes)
