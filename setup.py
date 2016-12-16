@@ -4,7 +4,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="directoryhash",
-    version=__import__('app').__version__,
+    version=__import__('directoryhash').__version__,
     description=open(os.path.join(os.path.dirname(__file__), "DESCRIPTION")).read(),
     license="The MIT License (MIT)",
     keywords="directoryhash, directory_hash, hash of directory, directory md5, directory sha1, folder hash, "
